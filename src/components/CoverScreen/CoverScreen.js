@@ -3,7 +3,7 @@ import "./CoverScreen.css";
 
 const CoverScreen = ({ score, onStartGame, duration }) => (
   <div className="intro">
-    <h1 className="title">{score > -1 ? "Game over!" : "Pop-a-balloon! 🎈"}</h1>
+    <h1 className="title">{score > -1 ? "Game over!" : "Prick-a-balloon! 🎈"}</h1>
     {score > -1 ? (
       <p className="description">
         {`You scored ${
